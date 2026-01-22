@@ -18,18 +18,16 @@ function Translations() {
         <article className="min-h-screen bg-slate-600 p-4">
             <div className="mx-auto w-full max-w-2xl">
                 <header className="mb-3">
-                    <h1 className="text-xl font-semibold tracking-tight text-white">
+                    <h1 className="text-xl font-bold tracking-tight text-white">
                         Gherkin termini
                     </h1>
-                    <p className="mt-1 text-xs text-white/80">
-                        Angļu → Latviešu (BDD atslēgvārdi)
-                    </p>
+                   
                 </header>
 
-                <div className="overflow-hidden rounded-lg border border-white/10 bg-slate-700/40 shadow">
+                <div className="overflow-hidden rounded-lg border border-white/20  bg-slate-700 shadow">
                     <div className="overflow-x-auto">
                         <table className="min-w-full text-left text-xs text-slate-100">
-                            <thead className="bg-slate-800/60 text-xs font-semibold uppercase tracking-wider text-slate-200">
+                            <thead className="bg-slate-800 text-xs font-semibold uppercase tracking-wider text-slate-200">
                                 <tr>
                                     <th scope="col" className="px-3 py-2">
                                         Angļu valoda
@@ -42,10 +40,7 @@ function Translations() {
 
                             <tbody className="divide-y divide-white/10">
                                 {rows.map((row) => (
-                                    <tr
-                                        key={`${row.en}-${row.lv}`}
-                                        className="odd:bg-white/0 even:bg-white/5 hover:bg-white/10"
-                                    >
+                                    <tr key={`${row.en}-${row.lv}`} className="odd:bg-white/0 even:bg-white/5 ">
                                         <td className="whitespace-nowrap px-3 py-2 font-medium text-white">
                                             {row.en}
                                         </td>
