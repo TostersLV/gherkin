@@ -1,17 +1,20 @@
 function Translations() {
     const rows = [
-        { en: "Feature", lv: "Funkcionalitāte" },
+        { en: "Feature", lv: "Funkcionālā iezīme" },
         { en: "Rule", lv: "Noteikums" },
-        { en: "Background", lv: "Priekšvēsture" },
+        { en: "Background", lv: "Konteksts" },
         { en: "Scenario", lv: "Scenārijs" },
-        { en: "Scenario Outline", lv: "Scenārija veidne" },
+        { en: "Scenario Outline", lv: "Scenārijs pēc parauga" },
         { en: "Examples", lv: "Piemēri" },
-        { en: "Given", lv: "Ņemot vērā" },
-        { en: "When", lv: "Kad" },
+        { en: "User story", lv: "Lietotājstāsts" },
+        { en: "Given", lv: "Kad" },
+        { en: "When", lv: "Ja" },
         { en: "Then", lv: "Tad" },
         { en: "And", lv: "Un" },
         { en: "But", lv: "Bet" },
+        { en: "Or", lv: "Vai" },
         { en: "@tag", lv: "@tags (tegs)" },
+        { en: "Comment is #", lv: "Komentārs ir #" },
     ];
 
     return (
