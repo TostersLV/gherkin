@@ -16,10 +16,10 @@ function App() {
     <>
       <Translations />
       <Feature />
-      <HappyPathScenario />
-      <RubicCube />
-      <Scenario />
       <UserStory />
+      <Scenario />
+      <RubicCube />
+      <HappyPathScenario />
     </>
   )
 }
